@@ -1,0 +1,6 @@
+[output eDP-1]
+image=~/Pictures/bg/1.png
+filter=nearest
+scaling-mode=fill
+anchor=center
+

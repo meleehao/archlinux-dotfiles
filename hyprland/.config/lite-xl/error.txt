@@ -1,0 +1,8 @@
+Error: /home/mido/.config/lite-xl/plugins/ipc.lua:897: attempt to index a boolean value (upvalue 'settings')
+stack traceback:
+	/home/mido/.config/lite-xl/plugins/ipc.lua:897: in function 'system.get_time'
+	/usr/share/lite-xl/core/init.lua:982: in function 'core.load_plugins'
+	/usr/share/lite-xl/core/init.lua:756: in function 'core.init'
+	[string "local core..."]:8: in function <[string "local core..."]:2>
+	[C]: in function 'xpcall'
+	[string "local core..."]:2: in main chunk

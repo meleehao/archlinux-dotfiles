@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+THEME='Adwaita'
+CURSOR='Adwaita'
+ICONS='Adwaita'
+FONT='PingFang SC 9'
+SCHEMA='gsettings set org.gnome.desktop,interface'
+
+apply_themes () {
+        ${SCHEMA} gtk-theme "$THEME"
+        ${SCHEMA} icon-theme "$ICONS"
+        ${SCHEMA} cursor "$CURSOR"
+        ${SCHEMA} font-name "$FONT"
+    }
+
+apply_themes
